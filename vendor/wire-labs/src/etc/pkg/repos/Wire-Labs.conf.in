@@ -1,0 +1,7 @@
+Wire-Labs: {
+  fingerprints: "/usr/local/etc/pkg/fingerprints/Wire-Labs",
+  url: "https://updates.wire-labs.com/opnsense/${ABI}/%%PLUGIN_ABI%%/%%PLUGIN_FLAVOUR%%/latest",
+  signature_type: "fingerprints",
+  priority: 7,
+  enabled: yes
+}
