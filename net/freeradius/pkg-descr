@@ -15,6 +15,10 @@ The server is fast, feature-rich, modular, and scalable.
 Plugin Changelog
 ================
 
+2.0.0
+
+* Added 3GPP field definations
+
 1.9.9
 
 * Create option to set EAP-TTLS-GTC (contributed by Kjeld Schouten-Lebbing)
