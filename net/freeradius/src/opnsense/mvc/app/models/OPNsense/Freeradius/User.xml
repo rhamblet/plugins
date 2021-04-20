@@ -73,7 +73,11 @@
                 <mikrotik_vlan_id_type type="IntegerField">
                     <Required>N</Required>
                 </mikrotik_vlan_id_type>
-                <sessionlimit_max_session_limit type="IntegerField">
+                <3gpp_imsi_id_number type="IntegerField">
+                    <Required>N</Required>
+                </3gpp_imsi_id_number>
+								
+								<sessionlimit_max_session_limit type="IntegerField">
                     <Required>N</Required>
                 </sessionlimit_max_session_limit>
                 <servicetype type="OptionField">

@@ -118,6 +118,12 @@
         <help>Set the Mikrotik VLAN type attribute. For general use a value of 0 is fine.</help>
     </field>
     <field>
+        <id>user.3gpp_imsi_id_number</id>
+        <label>3GPP IMSI ID</label>
+        <type>text</type>
+        <help>Set the IMSI ID attribute. 3GPP uses it's own attributes for IMSI identification.</help>
+    </field>
+		<field>
         <id>user.sessionlimit_max_session_limit</id>
         <label>Max Daily Session</label>
         <type>text</type>

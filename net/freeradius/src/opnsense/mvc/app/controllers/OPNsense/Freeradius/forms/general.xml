@@ -36,6 +36,12 @@
         <help>This enables the Mikrotik attributes assignment via users tab.</help>
     </field>
     <field>
+        <id>general.3gpp</id>
+        <label>Enable 3GPP attributes</label>
+        <type>checkbox</type>
+        <help>This enables the 3GPP attributes assignment via users tab.</help>
+    </field>
+		<field>
         <id>general.sqlite</id>
         <label>Enable SQLite</label>
         <type>checkbox</type>
