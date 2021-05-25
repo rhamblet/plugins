@@ -6,42 +6,6 @@
         <help>This will activate the FreeRADIUS service.</help>
     </field>
     <field>
-        <id>general.vlanassign</id>
-        <label>Enable VLAN assignment</label>
-        <type>checkbox</type>
-        <help>This allows you to dynamically assign VLANs on your physical switch ports.</help>
-    </field>
-    <field>
-        <id>general.ldap_enabled</id>
-        <label>Enable LDAP</label>
-        <type>checkbox</type>
-        <help>This allows you to bind to an external LDAP server. Be aware that FreeRADIUS will not start if there is no further configuration.</help>
-    </field>
-    <field>
-        <id>general.wispr</id>
-        <label>Enable WISPr attributes</label>
-        <type>checkbox</type>
-        <help>This enables the WISPr attributes assignment via users tab.</help>
-    </field>
-    <field>
-        <id>general.chillispot</id>
-        <label>Enable ChilliSpot attributes</label>
-        <type>checkbox</type>
-        <help>This enables the ChilliSpot attributes assignment via users tab.</help>
-    </field>
-    <field>
-        <id>general.mikrotik</id>
-        <label>Enable Mikrotik attributes</label>
-        <type>checkbox</type>
-        <help>This enables the Mikrotik attributes assignment via users tab.</help>
-    </field>
-    <field>
-        <id>general.3gpp</id>
-        <label>Enable 3GPP attributes</label>
-        <type>checkbox</type>
-        <help>This enables the 3GPP attributes assignment via users tab.</help>
-    </field>
-		<field>
         <id>general.sqlite</id>
         <label>Enable SQLite</label>
         <type>checkbox</type>
@@ -53,13 +17,13 @@
         <type>checkbox</type>
         <help>This enables the Max-Daily-Session attribute assignment via users tab.</help>
     </field>
-     <field>
+    <field>
         <id>general.log_destination</id>
         <label>Log to File or Syslog</label>
         <type>dropdown</type>
         <help>Set where to log radius requests, defaults to file.</help>
     </field>
-     <field>
+    <field>
         <id>general.log_authentication_request</id>
         <label>Log Authentication Request</label>
         <type>checkbox</type>
